@@ -1,19 +1,21 @@
 {
   "short_name": "BluseSky Wallet",
   "name": "BluseSky Wallet",
+  "author":"Utsav Bhikadiya",
+  "description":"An Ethereum Wallet in your Browser",
   "manifest_version": 3,
   "version": "1.0",
   "action": {
     "default_popup": "index.html",
     "default_icon": {
-      "16": "logo512.png",
-      "48": "logo512.png",
-      "128": "logo512.png"
+      "16": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
     }
   },
   "icons": {
-    "16": "logo192.png",
-    "48": "logo192.png",
-    "128": "logo192.png"
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
   }
 }

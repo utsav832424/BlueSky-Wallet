@@ -4,7 +4,7 @@ import { IoMdEye, IoMdEyeOff } from "react-icons/io";
 import { Link, useNavigate } from "react-router-dom";
 import AlertComponent from "../../AlertComponent/AlertComponent";
 import axios from "axios";
-import logo from "../../../assets/logo1.avif";
+import logo from "../../../assets/logo.png";
 
 const UnlockWallet = (props) => {
   const { userDetails, setUserDetails } = props;
@@ -73,7 +73,7 @@ const UnlockWallet = (props) => {
     <div className={Style.unlockWallet}>
       <div className={Style.unlockWallet_Box}>
         <center>
-          <img src={logo} alt="logo" height={180} width={180} />
+          <img src={logo} alt="logo" height={180} width={210} />
         </center>
 
         <h2>Unlock Wallet</h2>

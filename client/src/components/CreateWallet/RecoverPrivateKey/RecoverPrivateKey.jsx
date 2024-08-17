@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import AlertComponent from "../../AlertComponent/AlertComponent";
 import { Box, Dialog, DialogContent, DialogTitle } from "@mui/material";
 import axios from "axios";
-import logo from "../../../assets/logo1.avif";
+import logo from "../../../assets/logo.png";
 import { MdOutlineArrowBackIos } from "react-icons/md";
 
 const RecoverSeedPhrase = (props) => {
@@ -93,7 +93,7 @@ const RecoverSeedPhrase = (props) => {
             <MdOutlineArrowBackIos />
           </div>
           <center>
-            <img src={logo} alt="logo" height={180} width={180} />
+            <img src={logo} alt="logo" height={180} width={210} />
           </center>
           <h2>Recover using Private Key</h2>
           <p>Enter the private key associated with the account.</p>

@@ -4,7 +4,7 @@ import AlertComponent from "../../AlertComponent/AlertComponent";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { MdOutlineArrowBackIos } from "react-icons/md";
-import logo from "../../../assets/logo1.avif";
+import logo from "../../../assets/logo.png";
 
 const CreateAccount = (props) => {
   const navigate = useNavigate();
@@ -71,7 +71,7 @@ const CreateAccount = (props) => {
           <MdOutlineArrowBackIos />
         </div>
         <center>
-          <img src={logo} alt="logo" height={180} width={180} />
+          <img src={logo} alt="logo" height={180} width={210} />
         </center>
         <h2>Add a Account Name</h2>
         <p>

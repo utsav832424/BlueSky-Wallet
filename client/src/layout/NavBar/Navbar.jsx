@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Style from "./Navbar.module.css";
-import logo from "../../assets/Wallet-logo.png";
+import logo from "../../assets/logo.png";
 import { LuWallet2 } from "react-icons/lu";
 import { VscAccount } from "react-icons/vsc";
 import { Link, useNavigate } from "react-router-dom";

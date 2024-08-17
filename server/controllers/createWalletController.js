@@ -3,7 +3,6 @@ import bcrypt from "bcrypt";
 import userModel from "../models/userModel.js";
 
 const provider = new ethers.JsonRpcProvider("http://127.0.0.1:8545/");
-const provider2 = new ethers.EtherscanProvider();
 
 const createPasswordForWallet = async (req, res) => {
   let { password, confirm_password } = req.body;
