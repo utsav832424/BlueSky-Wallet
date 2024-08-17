@@ -301,7 +301,9 @@ const ReceiveToken = (props) => {
           </center>
 
           <div className={Style.dialog_private_key_title}>
-            {isSeedOrKey == 0 ? "Private key for Account 1" : "Seed Phrase"}
+            {isSeedOrKey == 0
+              ? `Private key for ${selectedAccount.accountName}`
+              : "Seed Phrase"}
           </div>
           <div className={Style.private_key_txt_box}>
             <div className={Style.private_key_txt}>{showPrivateKey}</div>
