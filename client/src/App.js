@@ -4,7 +4,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 import MyRoutes from "./components/MyRoutes";
 import React, { useState, useEffect } from "react";
 import { CircularProgress } from "@mui/material";
-import TestComponent from "./components/TestComponent";
 
 function App() {
   const [userDetails, setUserDetails] = useState({

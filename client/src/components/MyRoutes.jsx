@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
-import CreateAccountMain from "./CreateAccountMain/CreateAccountMain";
+import CreateAccountMain from "./CreateWallet/CreateAccountMain/CreateAccountMain";
 import CreatePassword from "./CreateWallet/CreatePassword";
 import Navbar from "../layout/NavBar/Navbar";
 import CreateAccountContent from "./CreateWallet/CreateAccountContent/CreateAccountContent";
@@ -18,6 +18,7 @@ import FindAccounts from "./HomeComponent/SendComponent/FindAccounts/FindAccount
 import SendToken from "./HomeComponent/SendComponent/SendToken/SendToken";
 import ReceiveToken from "./HomeComponent/ReceiveToken/ReceiveToken";
 import ImportWallet from "./CreateWallet/importWallet/importWallet";
+import SwapComponent from "./HomeComponent/SwapComponent/SwapComponent";
 
 const MyRoutes = (props) => {
   const navigate = useNavigate();
@@ -133,6 +134,7 @@ const MyRoutes = (props) => {
             />
           }
         />
+        <Route path="/swap-token" element={<SwapComponent />} />
       </Routes>
     </div>
   );

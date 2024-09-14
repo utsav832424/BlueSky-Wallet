@@ -44,7 +44,7 @@ const HomeComponent = (props) => {
     {
       icon: <IoMdSwap className={Style.sendIcon} />,
       iconTxt: "Swap",
-      path: "/swap-tokens",
+      path: "/swap-token",
     },
   ];
   const [value, setValue] = useState("1");

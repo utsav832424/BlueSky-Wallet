@@ -1,0 +1,153 @@
+.swapComp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swap_box {
+  height: 600px;
+  width: 365px;
+  border-radius: 5px;
+  overflow-y: auto;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.back_icon {
+  left: 5px;
+  position: absolute;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.leftIconBox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.swapMain_box {
+  border: 1px solid #bbc0c566;
+  height: 250px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.swapContainer {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.tokenInput {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.swapButton {
+  margin-top: 20px;
+}
+
+.baseToken_box {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px;
+}
+
+.tokenList {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.selectedTokenBox {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.selectedTokenBox .tokenImage {
+  margin-right: 10px;
+  height: 25px;
+  width: 50px;
+  flex: 1;
+}
+
+.baseToken_select .selectedTokenBox span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.baseToken_select span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.baseToken_select {
+  border-radius: 20px;
+  background-color: #f2f4f6;
+  padding: 6px 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.searchField {
+  border-radius: 5px;
+}
+
+.baseAmountField {
+  outline: none;
+  border: none;
+  text-align: end;
+  width: 40%;
+  font-size: 26px;
+  font-weight: 800;
+  color: gray;
+}
+
+.middleLine {
+  position: relative;
+  border: 1px solid #bbc0c566;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swapIcon {
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.swap_box .swapBtn {
+  border: none;
+  color: white;
+  background-color: var(--button-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-weight: 500;
+  border-radius: 50px;
+  width: 100%;
+  text-decoration: none;
+  margin-top: 210px;
+  cursor: pointer;
+}
+
+.swap_box .swapBtn:disabled {
+  opacity: 50%;
+}

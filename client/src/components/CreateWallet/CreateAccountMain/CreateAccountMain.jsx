@@ -1,7 +1,7 @@
 import React from "react";
 import Style from "./CreateAccountMain.module.css";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../../assets/logo.png";
 
 const CreateAccountMain = () => {
   return (
